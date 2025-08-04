@@ -15,4 +15,7 @@ resource "azurerm _resource_group" "virat" {
   name     = "rg-virat"
   location = "East US"
 }   
-
+resource "azurerm _resource_group" "rohit" {
+  name     = "rg-rohit"
+  location = "East US"
+}   
